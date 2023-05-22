@@ -1,0 +1,3 @@
+/home/trol53/hakaton/baum-may-akacuki/user/build/CMakeFiles/user.dir
+/home/trol53/hakaton/baum-may-akacuki/user/build/CMakeFiles/edit_cache.dir
+/home/trol53/hakaton/baum-may-akacuki/user/build/CMakeFiles/rebuild_cache.dir

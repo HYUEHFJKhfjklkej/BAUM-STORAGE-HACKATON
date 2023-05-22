@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  service1:
+    build:
+      context: ./router
+      dockerfile: Dockerfile
+    image: router
+
+  service2:
+    build:
+      context: ./user
+      dockerfile: Dockerfile
+    image: user
+
+  service3:
+    build:
+      context: ./server_01
+      dockerfile: Dockerfile
+    image: service3
+
+  service4:
+    build:
+      context: ./server_02
+      dockerfile: Dockerfile
+    image: service4
+
+  service5:
+    build:
+      context: ./server_03
+      dockerfile: Dockerfile
+    image: service5
+
+networks:
+  app_network:
+    driver: bridge
